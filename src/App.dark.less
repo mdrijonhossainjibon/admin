@@ -1,0 +1,117 @@
+body.dark {
+  @import '~antd/dist/antd.dark.less';
+  @import './components/pages/login/LoginPage';
+  @import './components/MainLayout';
+  @import './components/pages/users/users-list/user-details/UserDetailsLayout';
+  @import './components/pages/configuration/blockchains/Blockchains';
+  @import './components/pages/configuration/currencies/Currencies';
+  @import './components/pages/configuration/feesSchedule/FeesSchedule';
+  @import './components/pages/configuration/blockchains/details/BlockchainDetailsLayout';
+  @import './components/pages/operations/withdrawals/Withdrawals';
+
+  .ant-menu.ant-menu-dark.setter-main-container-header-nav.ant-menu-root.ant-menu-horizontal {
+    background-color: #1f1f1f;
+  }
+  .setter-main-container-header-nav {
+    background-color: #1f1f1f;
+  }
+  .spinner-container{
+    background-color: #1f1f1f;
+  }
+  .ant-modal-content{
+    border-radius: 10px;
+    background: #1f1f1f !important ;
+  }
+  section.ant-layout.ant-layout-has-sider {
+    flex-direction: row;
+  }
+  .logo {
+    height: 31px;
+    line-height: 31px;
+    margin: 16px 28px 16px 0;
+    font-size: 1.1em;
+    font-weight: 700;
+    float: left;
+  }
+
+  .site-layout-background {
+    background-color: transparent;
+  }
+  
+  .setter-spinner-centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+  }
+
+  .add-btn-fixed {
+    position: fixed;
+    right: 2%;
+    bottom: 5%;
+    width: 50px;
+    height: 50px;
+  }
+
+  .setter-table-tabs {
+    .ant-tabs-nav {
+      margin: 0;
+      padding: 0 1rem;
+    }
+  }
+
+  .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    color: #177ddc;
+    background: #141414;
+    border-color: #177ddc;
+  }
+  
+  .ant-table {
+    .ant-table-row[tabindex="0"] {
+      cursor: pointer;
+    }
+  }
+
+  .ant-menu-item-selected svg {
+    fill: white;
+  }
+
+  .ant-pagination-async {
+    margin: 16px 0;
+
+    .ant-pagination-item {
+      display: none;
+    }
+  }
+
+  .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color:#4190ff;
+    color: white;
+  }
+
+  .ant-select-item {
+    background-color: #1f1f1f;
+    color: white;
+  }
+  .ant-select-item:hover{
+    background-color: #4190ff;
+    color: white;
+  }
+
+  .ant-table-tbody > tr > td{
+    background-color: #141414;
+  }
+
+  .ant-collapse-header{
+    color: white !important;
+  }
+
+  body {
+    width: 100%;
+    min-height: 100vh;
+
+    #root {
+      width: 100%;
+      min-height: 100vh;
+    }
+  }
+}

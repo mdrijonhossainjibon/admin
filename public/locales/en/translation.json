@@ -1,0 +1,1150 @@
+{
+  "setter": {
+    "global": {
+      "name": "Setter",
+      "app": {
+        "loading": "Loading..."
+      },
+      "messages": {
+        "success": {
+          "update": "Update Successful",
+          "blockchain": {
+            "height": "Blockchain Height Reset Successful"
+          }
+        }
+      }
+    },
+    "error": {
+      "authz": {
+        "invalid_session": "Session Expired. Please login"
+      },
+      "Forbidden": "Not Permitted Action",
+      "admin": {
+        "blockchain": {
+          "invalid_server": "Invalid Server",
+          "key_too_long": "Key too long",
+          "name_too_long": "Name too long",
+          "non_positive_height": "Non positive height",
+          "non_positive_min_confirmations": "Non positive min confirmations",
+          "invalid_status": "Invalid status",
+          "invalid_client": "Invalid client",
+          "missing_key": "Missing key",
+          "missing_name": "Missing name",
+          "missing_client": "Missing client",
+          "missing_height": "Missing height",
+          "missing_id": "Missing id"
+
+        },
+        "user": {
+          "superadmin_change": "Cannot update superadmin.",
+          "update_himself": "Cannot update yourself.",
+          "doesnt_exist": "User does not exist"
+        },
+        "currency": {
+          "missing_blockchain_key": "Blockchain key is required",
+          "doesnt_exist": "Currency does not exist",
+          "blockchain_key_doesnt_exist": "Blockchain key does not exist",
+          "invalid_type": "Invalid currency type",
+          "non_boolean_visible": "Visible should be boolean",
+          "non_boolean_deposit_enabled": "Deposit enabled should be boolean",
+          "non_boolean_withdrawal_enabled": "Withdraw enabled should be boolean",
+          "non_json_options": "Options should be in JSON format",
+          "invalid_subunits": "Invalid subunits",
+          "one_of_base_factor_subunits_fields": "One of base factor subunits fields",
+          "missing_code": "Missing code",
+          "missing_symbol": "Missing symbol"
+
+        },
+        "adjustment": {
+          "non_decimal_amount": "Non decimal amount",
+          "invalid_asset_account_code": "Invalid asset account code",
+          "invalid_receiving_account_code": "Invalid receiving account code",
+          "invalid_category": "Invalid category",
+          "currency_doesnt_exist": "Currency does not exist",
+          "missing_receiving_member_uid": "Missing receiving member UID",
+          "redundant_receiving_member_uid": "Redundant receiving member UID",
+          "cannot_perform_accept_action": "Cannot perform accept action",
+          "cannot_perform_reject_action": "Cannot perform reject action",
+          "invalid_action": "Invalid action",
+          "non_integer_asset_account_code": "Non integer asset account code",
+          "non_integer_receiving_account_code": "Non integer receiving account code",
+          "non_integer_id": "Non integer ID"
+        },
+        "trading_fee": {
+          "market_doesnt_exist": "Market does not exist",
+          "invalid_maker": "Invalid maker",
+          "invalid_taker": "Invalid taker",
+          "missing_id": "Missing id"
+        },
+        "tradingfee": {
+          "missing_id": "Missing ID"
+        },
+        "ability": {
+          "not_permitted": "Not Permitted Action"
+
+        },
+        "deposit": {
+          "invalid_action": "Invalid Action",
+          "user_doesnt_exist": "User does not exist",
+          "currency_doesnt_exist": "Currency does not exist",
+          "non_decimal_amount": "Non decimal amount"
+        },
+        "markets": {
+          "unit_doesnt_exist": "Unit does not exist"
+        },
+        "market": {
+          "invalid_state": "Invalid market state",
+          "currency_doesnt_exist": "Currency does not exist",
+          "missing_base_currency": "Missing base currency",
+          "missing_quote_currency": "Missing quote currency",
+          "invalid_data": "Invalid data",
+          "missing_id": "Missing id",
+          "doesnt_exist": "Does not exist"
+        },
+        "member": {
+          "missing_group": "Missing Group"
+        },
+        "pagination": {
+          "invalid_limit": "Invalid pagination limit",
+          "non_integer_page": "Non integer pagination page number"
+        },
+        "order": {
+          "non_positive_price": "Price should be positive",
+          "non_positive_origin_volume": "Origin volume should be positive",
+          "invalid_ord_type": "Invalid order type",
+          "invalid_side": "Invalid order side",
+          "market_doesnt_exist": "Market does not exist",
+          "non_integer_limit": "Non integer order limit"
+
+        },
+        "filter": {
+          "range_from_invalid": "Range from invalid value",
+          "range_to_invalid": "Range to invalid value"
+        },
+        "wallet": {
+          "missing_name": "Missing name",
+          "missing_kind": "Missing kind",
+          "missing_currency": "Missing currency",
+          "missing_address": "Missing address",
+          "missing_blockchain_key": "Missing blockchain key",
+          "missing_gateway": "Missing gateway",
+          "invalid_status": "Invalid status",
+          "gateway_doesnt_exist": "Gateway does not exist",
+          "invalid_kind": "Invalid kind",
+          "currency_doesnt_exist": "Currency does not exist",
+          "blockchain_key_doesnt_exist": "Blockchain key does not exist",
+          "missing_id": "Missing ID"
+        },
+        "withdraw": {
+          "non_integer_id": "Non integer ID",
+          "invalid_action": "Invalid withdraw action",
+          "cannot_load": "Cannot Load",
+          "redundant_txid": "Redundant transaction  id"
+
+        }
+      },
+      "key": {
+        "taken": "This label key is already taken."
+      },
+      "failedtofetch": "Failed to fetch data, please contact Support",
+      "backend_error": "Server Error Occurred, please contact Support"
+    },
+    "login": {
+      "form": {
+        "header": "Welcome to Setter!",
+        "login": "Login",
+        "password": "Password",
+        "email": "Email",
+        "otp": "OTP Code",
+        "ph": {
+          "email": "Please type your email",
+          "password": "Please type you password",
+          "otp": "Please type code from authenticator"
+        }
+      }
+    },
+    "header": {
+      "tabs": {
+        "dashboard": "Dashboard",
+        "users": "Users",
+        "operations": "Operations",
+        "configuration": "Configuration",
+        "devops": "DevOps"
+      }
+    },
+    "pagination": {
+      "total": "Total",
+      "items": "items"
+    },
+    "layouts": {
+      "users": {
+        "nav": {
+          "users": "Users Directory",
+          "applications": "Applications",
+          "activities": "Activities"
+        },
+        "table": {
+          "userId": "UID",
+          "email": "Email",
+          "role": "Role",
+          "state": "State",
+          "search": "Search user by email",
+          "filter": "Filter",
+          "name": "Name",
+          "country": "Country",
+          "referralUid": "Referral UID",
+          "created": "Created At",
+          "level": "Level",
+          "actions": {
+            "label": "Actions",
+            "details": "View Details"
+          },
+          "attachments": "Attachments"
+        },
+        "filter": {
+          "uid": "UID",
+          "email": "Email",
+          "role": "Role",
+          "firstName": "First Name",
+          "lastName": "Last Name",
+          "country": "Country",
+          "level": "Level",
+          "submit": "Submit",
+          "reset": "Reset",
+          "state": {
+            "title": "State",
+            "active": "Active",
+            "pending": "Pending",
+            "banned": "Banned"
+          }
+        },
+        "details": {
+          "nav": {
+            "main": "Main Info",
+            "kyc": "KYC",
+            "openOrders": "Open Orders",
+            "balances": "Balances",
+            "history": "History",
+            "activities": "Activities"
+          },
+          "main": {
+            "title": "User Info",
+            "uid": "UID",
+            "role": "Role",
+            "level": "Level",
+            "state": "State",
+            "email": "Email",
+            "2fa": {
+              "label": "2FA",
+              "disabled": "Disabled",
+              "enabled": "Enabled"
+            },
+            "referral": "Referral user",
+            "feeGroup": "Fee group",
+            "edit": "Edit",
+            "close": "Close",
+            "profile": {
+              "title": "Profile Info",
+              "edit": "Edit Profile",
+              "missing": "User has no profile.",
+              "first_name": "First Name",
+              "last_name": "Last Name",
+              "address": "Address",
+              "city": "City",
+              "country": "Country",
+              "dob": "Date of Birth",
+              "nationality": "Nationality",
+              "postcode": "Postcode",
+              "state": {
+                "title": "State",
+                "verified": "Verified",
+                "rejected": "Rejected",
+                "submitted": "Submitted",
+                "drafted": "Drafted"
+              },
+              "reject": "Reject",
+              "approve": "Approve"
+            },
+            "documents": "Documents",
+            "expired": "Valid till"
+          },
+          "kyc": {
+            "verification": {
+              "title": "KYC Verification",
+              "level": "Level {{level}}",
+              "email": "Email",
+              "phone": "Phone",
+              "document": "Document",
+              "verified": "Verified at {{date}}",
+              "notVerified": "Not verified"
+            },
+            "documents": {
+              "title": "Documents",
+              "url": "URL",
+              "type": "Type",
+              "number": "Number",
+              "expiry": "Expiry Date",
+              "created": "Created At",
+              "reject": "Reject",
+              "approve": "Approve"
+            }
+          },
+          "balances": {
+            "currency": "Currency",
+            "available": "Available Balance",
+            "locked": "Locked Balance",
+            "total": "Total Balance"
+          },
+          "history": {
+            "trades": "Trades",
+            "orders": "Orders",
+            "deposits": "Deposits",
+            "withdrawals": "Withdrawals"
+          },
+          "activities": {
+            "date": "Date",
+            "action": "Action",
+            "result": {
+              "title": "Result",
+              "succeed": "Success",
+              "failed": "Failed",
+              "denied": "Denied"
+            },
+            "note": "Note",
+            "ip": "IP",
+            "browser": "Browser",
+            "os": "OS"
+          },
+          "labels": {
+            "title": "Labels",
+            "new": "New Label",
+            "delete": "Delete",
+            "noLabels": "User has no labels.",
+            "form": {
+              "edit": "Edit Label",
+              "create": "Create Label",
+              "key": "Key",
+              "value": "Value",
+              "scope": {
+                "label": "Scope",
+                "private": "Private",
+                "public": "Public"
+              }
+            },
+            "confirm": {
+              "title": "Are you sure you wish to delete this label?",
+              "ok": "Delete",
+              "cancel": "Cancel"
+            }
+          }
+        },
+        "applications": {
+          "name": "Name",
+          "birthDate": "Date of birth",
+          "nationality": "Nationality",
+          "address": "Address",
+          "postcode": "Postcode",
+          "country": "Country",
+          "expired": "Valid till"
+        }
+      },
+      "operations": {
+        "nav": {
+          "adjustments": "Adjustments",
+          "businessAnalytics": "Business Analytics",
+          "deposits": "Deposits",
+          "orders": "Orders",
+          "pendingWithdrawals": "Pending Withdrawals",
+          "trades": "Trades",
+          "withdrawals": "Withdrawals"
+        },
+        "deposits": {
+          "details": {
+            "title": "Deposit Details",
+            "user": {
+              "title": "User Info",
+              "email": "Email",
+              "uid": "UID",
+              "created": "Created At"
+            },
+            "deposit": {
+              "title": "Deposit",
+              "id": "ID",
+              "currency": "Currency",
+              "amount": "Amount",
+              "fee": "Fee",
+              "date": "Created At",
+              "state": "State",
+              "txid": "TxID",
+              "block_number": "TxID block",
+              "blockchain": "Blockchain",
+              "txout": "TxOut block",
+              "reject": "Reject",
+              "approve": "Approve"
+            },
+            "recipient": {
+              "title": "Recipient",
+              "id": "Beneficiary ID",
+              "name": "Name",
+              "address": "Address",
+              "fullName": "Full Name",
+              "accountNumber": "Account Number",
+              "bankName": "Bank Name",
+              "state": "State"
+            },
+            "withdraws": {
+              "title":"All User Withdrawals"
+            }
+          },
+          "table": {
+            "id": "ID",
+            "uid": "UID",
+            "txid": "TxID",
+            "type": "Type",
+            "created_at": "Created At",
+            "completed_at": "Completed",
+            "amount": "Amount",
+            "confirmations": "Confirmations",
+            "currency_code": "Currency",
+            "filter": "Filter",
+            "reload": "Reload",
+            "new": "New Deposit",
+            "coin": "Coin",
+            "fiat": "Fiat",
+            "state": {
+              "title": "State",
+              "accepted": "Accepted",
+              "collected": "Collected",
+              "rejected": "Rejected",
+              "skipped": "Skipped",
+              "submitted": "Submitted",
+              "skip": "Skip",
+              "cancel": "Cancel",
+              "reject": "Reject",
+              "accept": "Accept",
+              "dispatch": "Dispatch"
+            }
+          },
+          "filter": {
+            "state": "State",
+            "uid": "UID",
+            "txid": "Transaction ID",
+            "address": "Address",
+            "currency": "Currency",
+            "currencyType": "Currency Type",
+            "from": "Date From",
+            "to": "Date To",
+            "submit": "Filter Deposits",
+            "reset": "Reset"
+          },
+          "form": {
+            "title": "Create Deposit",
+            "uid": "UID",
+            "currency": "Currency",
+            "amount": "Amount",
+            "submit": "Create Deposit"
+          }
+        },
+        "withdrawals": {
+          "filter": {
+            "state": "State",
+            "uid": "UID",
+            "txid": "Transaction ID",
+            "address": "Address",
+            "currency": "Currency",
+            "currencyType": "Currency Type",
+            "from": "Date From",
+            "to": "Date To",
+            "submit": "Filter Withdrawals",
+            "reset": "Reset"
+          },
+          "table": {
+            "title": "Withdrawals",
+            "pendingTitle": "Pending Withdrawals",
+            "panes": {
+              "coin": "Coin",
+              "fiat": "Fiat"
+            },
+            "filter": "Filter",
+            "reload": "Reload",
+            "id": "ID",
+            "email": "Email",
+            "currency": "Currency",
+            "txid": {
+              "title": "TxID",
+              "load": {
+                "title": "Load",
+                "placeholder": "Transaction ID",
+                "submit": "Load Withdrawal"
+              }
+            },
+            "rid": "Recipient Address",
+            "created_at": "Created At",
+            "amount": "Amount",
+            "state": {
+              "title": "State",
+              "prepared": "Prepared",
+              "submitted": "Submitted",
+              "processing": "Processing",
+              "canceled": "Canceled",
+              "failed": "Failed",
+              "accepted": "Accepted",
+              "succeed": "Succeed",
+              "confirming": "Confirming",
+              "errored": "Errored",
+              "rejected": "Rejected",
+              "skipped": "Skipped",
+              "actions": {
+                "submit": "Submit",
+                "cancel": "Cancel",
+                "accept": "Accept",
+                "reject": "Reject",
+                "process": "Process",
+                "load": "Load",
+                "dispatch": "Dispatch",
+                "success": "Success",
+                "skip": "Skip",
+                "fail": "Fail",
+                "err": "Error"
+              }
+            }
+          },
+          "details": {
+            "title": "Withdrawal Details",
+            "user": {
+              "title": "User Info",
+              "email": "Email",
+              "uid": "UID",
+              "balance": "Balance",
+              "created": "Created At"
+            },
+            "withdraw": {
+              "title": "Withdraw",
+              "id": "ID",
+              "currency": "Currency",
+              "amount": "Amount",
+              "total": "Total",
+              "date": "Date",
+              "state": "State",
+              "txid": "TxID",
+              "rid":"Recipient Address",
+              "sum": "Sum",
+              "fee": "Fee",
+              "confirmations": "Confirmations",
+              "block": "block",
+              "process": "Process",
+              "reject": "Reject"
+            },
+            "recipient": {
+              "title": "Recipient",
+              "id": "ID",
+              "name": "Name",
+              "address": "Address",
+              "fullName": "Full Name",
+              "accountNumber": "Account Number",
+              "bankName": "Bank Name",
+              "bankSwiftCode": "Bank SWIFT code",
+              "state": "State",
+              "intermediaryBankName": "Intermediary Bank Name",
+              "intermediaryBankSwiftCode": "Intermediary Bank SWIFT code"
+            },
+            "withdraws": {
+              "title":"All User Withdrawals"
+            }
+          }
+        },
+        "adjustments": {
+          "category": {
+            "asset_registration": "Asset Registration",
+            "investment": "Investment",
+            "minting_token": "Minting Token",
+            "balance_anomaly": "Balance Anomaly",
+            "misc": "Misc",
+            "refund": "Refund",
+            "compensation": "Compensation",
+            "incentive": "Incentive",
+            "bank_fees": "Bank Fees",
+            "bank_interest": "Bank Interest",
+            "minor": "Minor"
+          },
+          "state": {
+            "pending": "Pending",
+            "accepted": "Accepted",
+            "rejected": "Rejected",
+            "accept": "Accept",
+            "reject": "Reject"
+          },
+          "table": {
+            "reload": "Reload",
+            "newAdjustment": "New Adjustment",
+            "id": "ID", 
+            "uid": "UID",
+            "reason": "Reason",
+            "amount": "Amount",
+            "currency": "Currency",
+            "category": "Category",
+            "creator": "Creator ID",
+            "receivingAccountCode": "Receiving Account",
+            "state": "State"
+          },
+          "form": {
+            "title": "Create Adjustment",
+            "amount": "Amount",
+            "category": "Category",
+            "currency": "Currency",
+            "reason": "Reason",
+            "assetAccountCode": "Asset Account Code",
+            "receivingAccountCode": "Receiving Account Code",
+            "receivingMemberUid": "Receiving Member UID",
+            "description": "Description",
+            "submit": "Create Adjustment"
+          },
+          "details": {
+            "title": "Adjustment Details",
+            "amount": "Amount",
+            "assetAccountCode": "Asset Account Code",
+            "category": "Category",
+            "created": "Created At",
+            "updated": "Updated",
+            "currency": "Currency",
+            "reason": "Reason",
+            "state": "State",
+            "creator": {
+              "title": "Creator",
+              "uid": "UID",
+              "email": "Email",
+              "role": "Role"
+            },
+            "receiver": {
+              "title": "Receiver",
+              "uid": "UID",
+              "email": "Email",
+              "role": "Role",
+              "accountCode": "Account Code"
+            },
+            "validator": {
+              "title": "Validator",
+              "uid": "UID",
+              "email": "Email",
+              "role": "Role"
+            }
+          }
+        },
+        "orders": {
+          "table": {
+            "reload": "Reload",
+            "panes": {
+              "history": "Order History",
+              "open": "Open Orders"
+            },
+            "id": "Order ID",
+            "email": "Email",
+            "market": "Market",
+            "amount": "Amount",
+            "executed": "Executed",
+            "price": "Price",
+            "side": "Side",
+            "ord_type": "Type",
+            "created": "Created At",
+            "updated": "Updated",
+            "cancel": "Cancel"
+          },
+          "delete": {
+            "title": "Are you sure you wish to cancel this order?",
+            "ok": "Confirm",
+            "cancel": "Cancel"
+          },
+          "side": {
+            "buy": "Buy",
+            "sell": "Sell"
+          },
+          "ord_type": {
+            "limit": "Limit",
+            "market": "Market"
+          }
+        },
+        "trades": {
+          "table": {
+            "id": "Trade ID",
+            "maker": "Maker",
+            "taker": "Taker",
+            "market": "Market",
+            "price": "Price",
+            "amount": "Amount",
+            "total": "Total",
+            "side": "Side",
+            "time": "Trade Time"
+          },
+          "side": {
+            "buy": "Buy",
+            "sell": "Sell"
+          }
+        },
+        "businessAnalytics": {
+          "nav": {
+            "assets": "Assets",
+            "liabilities": "Liabilities",
+            "revenues": "Revenues",
+            "expenses": "Expenses"
+          },
+          "assets": {
+            "id": "ID",
+            "code": "Code",
+            "currency": "Currency",
+            "refId": "Ref ID",
+            "refType": "Ref Type",
+            "credit": "Credit",
+            "debit": "Debit",
+            "date": "Date"
+          },
+          "liabilities": {
+            "id": "ID",
+            "code": "Code",
+            "currency": "Currency",
+            "refId": "Ref ID",
+            "refType": "Ref Type",
+            "credit": "Credit",
+            "debit": "Debit",
+            "date": "Date",
+            "uid": "UID"
+          },
+          "revenues": {
+            "id": "ID",
+            "code": "Code",
+            "currency": "Currency",
+            "refId": "Ref ID",
+            "refType": "Ref Type",
+            "credit": "Credit",
+            "debit": "Debit",
+            "date": "Date"
+          },
+          "expenses": {
+            "id": "ID",
+            "code": "Code",
+            "currency": "Currency",
+            "refId": "Ref ID",
+            "refType": "Ref Type",
+            "credit": "Credit",
+            "debit": "Debit",
+            "date": "Date"
+          }
+        }
+      },
+      "configurations": {
+        "nav": {
+          "blockchains": "Blockchains",
+          "currencies": "Currencies",
+          "wallets": "Wallets",
+          "markets": "Markets",
+          "feesSchedule": "Fees Schedule"
+        },
+        "blockchains": {
+          "details": {
+            "nav": {
+              "main": "Info",
+              "edit": "Edit"
+            },
+            "edit": {
+              "reset": "Reset"
+            },
+            "name": "Name",
+            "enabled": "Enabled",
+            "disabled": "Disabled",
+            "height": "Height",
+            "client": "Client",
+            "server": "Server",
+            "minConfirmations": "Min Confirmations",
+            "dates": "Dates",
+            "createdAt": "Created At",
+            "updatedAt": "Updated",
+            "explorer": "Explorer",
+            "currencies": "Currencies"
+          },
+          "modal": {
+            "title": {
+              "create": "Create new Blockchain"
+            },
+            "save": "Save",
+            "cancel": "Cancel",
+            "form": {
+              "key": "Key",
+              "height": "Height",
+              "server": "Server",
+              "explorer_address": "Explorer Address",
+              "explorer_transaction": "Explorer Transaction",
+              "min_confirmations": "Min Confirmations",
+              "name": "Name",
+              "enabled": "Enabled",
+              "client": "Client"
+            }
+          },
+          "table": {
+            "id": "ID",
+            "new": "New Blockchain",
+            "reload": "Reload",
+            "key": "Key",
+            "name": "Name",
+            "client": "Client",
+            "height": "Height",
+            "createdAt": "Created At",
+            "status": {
+              "title": "Status",
+              "enabled": "Enabled",
+              "disabled": "Disabled"
+            },
+            "actions": {
+              "label": "Actions",
+              "details": "View Details"
+            }
+          }
+        },
+        "currencies": {
+          "table": {
+            "code": "Code",
+            "new": "New Currency",
+            "reload": "Reload",
+            "name": "Name",
+            "symbol": "Symbol",
+            "type": "Type",
+            "created": "Created At",
+            "visible": "Visible",
+            "deposit": "Deposit",
+            "withdrawal": "Withdrawal",
+            "actions": "Actions",
+            "true": "Yes",
+            "false": "No"
+          },
+          "details": {
+            "nav": {
+              "main": "Info",
+              "edit": "Edit"
+            },
+            "edit": "Edit",
+            "info": "Info",
+            "name": "Name",
+            "code": "Code",
+            "symbol": "Symbol",
+            "type": "Type",
+            "dates": "Dates",
+            "createdAt": "Created At",
+            "updatedAt": "Updated",
+            "copyWallets": "Copy wallets from another currency",
+            "wallets": "Wallets",
+            "noWallets": "No Wallets",
+            "withdraw": {
+              "title":  "Withdraw",
+              "fee": "Fee",
+              "min": "Min Amount",
+              "limit24h": "24h Limit",
+              "limit72h": "72h Limit",
+              "enabled": "Enabled",
+              "disabled": "Disabled"
+            },
+            "deposit": {
+              "title":  "Deposit",
+              "fee": "Deposit Fee",
+              "min": "Min Amount",
+              "enabled": "Enabled",
+              "disabled": "Disabled"
+            },
+            "markets": "Markets",
+            "options":"Properties",
+            "noMarkets": "No Markets",
+            "blockchain": {
+              "title":  "Blockchain",
+              "name": "Name",
+              "server": "Server",
+              "client": "Client",
+              "enabled": "Enabled",
+              "disabled": "Disabled",
+              "height": "Height",
+              "missing": "No blockchain"
+            }
+          },
+          "modal": {
+            "title": {
+              "create": "Create Currency",
+              "update": "Update Currency"
+            }
+          },
+          "form": {
+            "name": "Name",
+            "code": "Code",
+            "visible": "Visible",
+            "symbol": "Symbol",
+            "type": "Type",
+            "subunits": "Subunits",
+            "precision": "Precision",
+            "blockchain_key": "Blockchain Key",
+            "deposit_enabled": "Enabled",
+            "withdrawal_enabled": "Enabled",
+            "deposit_fee": "Deposit Fee",
+            "min_deposit_amount": "Min Deposit Amount",
+            "withdraw_fee": "Withdraw Fee",
+            "min_withdraw_amount": "Min Withdraw Amount",
+            "min_collection_amount": "Min Collection Amount",
+            "withdraw_limit_24h": "Withdraw Limit 24h",
+            "withdraw_limit_72h": "Withdraw Limit 72h",
+            "position": "Position",
+            "icon_url": "Icon URL",
+            "erc20_contract_address": "ERC20 Contract Address",
+            "gas_limit": "Gas Limit",
+            "gas_price": "Gas Price",
+            "properties": {
+              "title": "Custom Properties",
+              "remove": "Remove",
+              "button": "Add Property",
+              "addProperty": {
+                "title": "New Property",
+                "placeholder": "Property Name",
+                "cta": "Add Property"
+              }
+            },
+            "create": "Create Currency",
+            "update": "Save Currency",
+            "updatedSuccess": "Currency successfully updated.",
+            "createdSuccess": "Currency successfully created."
+          }
+        },
+        "markets": {
+          "table": {
+            "name": "Name",
+            "new": "New Market",
+            "reload": "Reload",
+            "baseCurrency": "Base Currency",
+            "quoteCurrency": "Quote Currency",
+            "created": "Created At",
+            "updated": "Updated",
+            "maxPrice": "Max Price",
+            "minPrice": "Min Price",
+            "minAmount": "Min Amount",
+            "details": "Details",
+            "status": {
+              "title": "Status",
+              "enabled": "Enabled",
+              "disabled": "Disabled"
+            }
+          },
+          "form": {
+            "base_currency": "Base Currency",
+            "quote_currency": "Quote Currency",
+            "amount_precision": "Amount Precision",
+            "price_precision": "Price Precision",
+            "max_price": "Max Price",
+            "min_price": "Min Price",
+            "min_amount": "Min Amount",
+            "position": "Position",
+            "enabled": "Enabled",
+            "update": "Update Market",
+            "create": "Create Market",
+            "updateSuccess": "Market successfully updated.",
+            "createSuccess": "Market successfully created."
+          },
+          "details": {
+            "nav": {
+              "info": "Info",
+              "edit": "Edit"
+            },
+            "name": "Name",
+            "enabled": "Enabled",
+            "disabled": "Disabled",
+            "dates": "Dates",
+            "created": "Created At",
+            "updated": "Updated",
+            "base_unit": "Base Unit",
+            "quote_unit": "Quote Unit",
+            "amount_precision": "Amount Precision",
+            "price_precision": "Price Precision",
+            "max_price": "Max Price",
+            "min_price": "Min Price",
+            "min_amount": "Min Amount",
+            "position": "Position"
+          },
+          "modal": {
+            "create": "Create Market"
+          }
+        },
+        "wallets": {
+          "table": {
+            "name": "Name",
+            "new": "New Wallet",
+            "reload": "Reload",
+            "address": "Address",
+            "currency": "Currency",
+            "kind": "Kind",
+            "created": "Created At",
+            "maxBalance": "Max Balance ",
+            "status": {
+              "title": "Status",
+              "enabled": "Enabled",
+              "disabled": "Disabled"
+            },
+            "details": "Details",
+            "active": "Active",
+            "inactive": "Inactive"
+          },
+          "details": {
+            "nav": {
+              "info": "Info",
+              "edit": "Edit"
+            },
+            "name": "Name",
+            "enabled": "Enabled",
+            "disabled": "Disabled",
+            "dates": "Dates",
+            "created": "Created At",
+            "updated": "Updated",
+            "address": "Address",
+            "blockchain_key": "Blockchain Key",
+            "currency": "Currency",
+            "kind": "Kind",
+            "gateway": "Gateway",
+            "max_balance": "Max Balance",
+            "walletId": "Wallet ID",
+            "testnet": "Testnet",
+            "accessToken": "Access Token"
+          },
+          "form": {
+            "title": "Wallet Info",
+            "name": "Name",
+            "address": "Address",
+            "blockchain_key": "Blockchain Key",
+            "gateway": "Gateway",
+            "currency": "Currency",
+            "kind": "Kind",
+            "max_balance": "Max Balance",
+            "enabled": "Enabled",
+            "update": "Update Wallet",
+            "create": "Create Wallet",
+            "updateSuccess": "Wallet successfully updated.",
+            "createSuccess": "Wallet successfully created.",
+            "settings": {
+              "title": "Wallet Settings",
+              "uri": "URI",
+              "accessToken": "Access Token",
+              "walletId": "Wallet ID",
+              "testnet": "Testnet",
+              "secret": "Secret",
+              "updateSuccess": "Wallet settings successfully updated.",
+              "submit": "Update Settings"
+            }
+          },
+          "modal": {
+            "create": "Create Wallet"
+          }
+        },
+        "feesSchedule": {
+          "table": {
+            "id": "ID",
+            "group": "Group",
+            "market": "Market",
+            "maker": "Maker Fee",
+            "taker": "Taker Fee",
+            "edit": "Edit",
+            "delete": "Delete",
+            "new":"New Fee",
+            "reload": "Reload"
+          },
+          "form": {
+            "create": "Create Fee",
+            "edit": "Edit Fee",
+            "group": "Group",
+            "market_id": "Market ID",
+            "maker": "Maker",
+            "taker": "Taker",
+            "updateSuccess": "Fee successfully updated.",
+            "createSuccess": "Fee successfully created."
+          },
+          "delete": {
+            "title": "Are you sure you wish to delete this fee?",
+            "confirm": "Delete",
+            "cancel": "Cancel"
+          }
+        }
+      },
+      "devops": {
+        "nav": {
+          "restrictions": "Restrictions",
+          "userPermissions": "User Permissions"
+        },
+        "userPermissions": {
+          "table": {
+            "role": "Role",
+            "verb": "Verb",
+            "path": "Path",
+            "topic": "Topic",
+            "action": "Action",
+            "reload": "Reload",
+            "new": "New Permission",
+            "edit": "Edit",
+            "delete": "Delete"
+          },
+          "form": {
+            "role": "Role",
+            "verb": "Verb",
+            "path": "Path",
+            "topic": "Topic",
+            "action": "Action",
+            "create": "Create",
+            "update": "Update",
+            "title": "User Permission",
+            "updatedSuccess": "User Permission successfully updated.",
+            "createdSuccess": "User Permission successfully created.",
+            "deletedSuccess": "User Permission successfully deleted."
+          },
+          "delete": {
+            "title": "Are you sure to delete permission?",
+            "confirm": "Confirm",
+            "cancel": "Cancel"
+          }
+        },
+        "restrictions": {
+          "table": {
+            "category": "Category",
+            "scope": "Scope",
+            "state": "State",
+            "value": "Value",
+            "reload": "Reload",
+            "new": "New Restriction",
+            "edit": "Edit",
+            "delete": "Delete"
+          },
+          "form": {
+            "category": "Category",
+            "scope": "Scope",
+            "state": "State",
+            "value": "Value",
+            "create": "Create",
+            "update": "Update",
+            "title": "Restriction",
+            "updatedSuccess": "Restriction successfully updated.",
+            "createdSuccess": "Restriction successfully created.",
+            "deletedSuccess": "Restriction successfully deleted."
+          },
+          "delete": {
+            "title": "Are you sure to delete restriction?",
+            "confirm": "Confirm",
+            "cancel": "Cancel"
+          }
+        }
+      },
+      "dashboard": {
+        "General": "General",
+        "Orders": "Orders",
+        "usersTotal": "Total users",
+        "users24H": "Total users (24H)",
+        "depositsTotal": "Total deposits",
+        "deposits24H": "Total deposits (24H)",
+        "withdrawsTotal": "Total withdraws",
+        "withdraws24H": "Total withdraws (24H)",
+        "tradesTotal": "Total trades",
+        "trades24H": "Total trades (24H)",
+        "ordersTotal": "Total orders",
+        "ordersTotalPending": "Total orders (pending)",
+        "orders24H": "Total orders (24H)",
+        "orders24HFilled": "Filled orders (24H)",
+        "orders24HPartialFilled": "Partially filled orders (24H)"
+      }
+    }
+  }
+}

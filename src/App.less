@@ -1,0 +1,46 @@
+
+@import '~antd/dist/antd.less';
+@import './components/pages/login/LoginPage';
+@import './components/MainLayout';
+@import './components/pages/users/users-list/user-details/UserDetailsLayout';
+@import './components/pages/configuration/blockchains/Blockchains';
+@import './components/pages/configuration/currencies/Currencies';
+@import './components/pages/configuration/feesSchedule/FeesSchedule';
+@import './components/pages/configuration/blockchains/details/BlockchainDetailsLayout';
+@import './components/pages/operations/withdrawals/Withdrawals';
+
+.spinner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.logo {
+  height: 31px;
+  line-height: 31px;
+  font-size: 1.1em;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.95);
+  margin: 16px 28px 16px 0;
+  float: left;
+  
+}
+
+.site-layout-background {
+  background-color: transparent;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+
+  #root {
+    width: 100%;
+    min-height: 100vh;
+  }
+}
+
